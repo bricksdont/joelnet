@@ -1,12 +1,18 @@
+#!/usr/bin/env python
+# -*- coding: utf-8 -*-
+
+# Most of the code taken from:
+# https://github.com/joelgrus/joelnet
+
 """
 The canonical example of a function that can't be
 learned with a simple linear model is XOR
 """
 import numpy as np
 
-from joelnet.train import train
-from joelnet.nn import NeuralNet
-from joelnet.layers import Linear, Tanh
+from clnet.train import train
+from clnet.nn import NeuralNet
+from clnet.layers import Linear, Tanh
 
 inputs = np.array([
     [0, 0],

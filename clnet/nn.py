@@ -1,3 +1,9 @@
+#!/usr/bin/env python
+# -*- coding: utf-8 -*-
+
+# Most of the code taken from:
+# https://github.com/joelgrus/joelnet
+
 """
 A NeuralNet is just a collection of layers.
 It behaves a lot like a layer itself, although
@@ -5,8 +11,8 @@ we're not going to make it one.
 """
 from typing import Sequence, Iterator, Tuple
 
-from joelnet.tensor import Tensor
-from joelnet.layers import Layer
+from clnet.tensor import Tensor
+from clnet.layers import Layer
 
 
 class NeuralNet:

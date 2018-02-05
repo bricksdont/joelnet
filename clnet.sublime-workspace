@@ -1,0 +1,699 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"unicode_li",
+				"unicode_literals\tstatement"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "optimizer.py",
+			"settings":
+			{
+				"buffer_size": 171,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "loss.py",
+			"settings":
+			{
+				"buffer_size": 98,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "train.py",
+			"settings":
+			{
+				"buffer_size": 98,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "iterator.py",
+			"settings":
+			{
+				"buffer_size": 98,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "tensor.py",
+			"settings":
+			{
+				"buffer_size": 150,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "layer.py",
+			"settings":
+			{
+				"buffer_size": 337,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "activation.py",
+			"settings":
+			{
+				"buffer_size": 98,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "net.py",
+			"settings":
+			{
+				"buffer_size": 149,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+		[
+			[
+				[
+					"Anaconda Python Builder",
+					""
+				],
+				[
+					"Packages/Python/Python.sublime-build",
+					""
+				],
+				[
+					"Packages/Python/Python.sublime-build",
+					"Syntax Check"
+				]
+			],
+			[
+				"Anaconda Python Builder",
+				""
+			]
+		],
+		[
+			[
+				[
+					"Packages/Python/Python.sublime-build",
+					""
+				],
+				[
+					"Packages/Python/Python.sublime-build",
+					"Syntax Check"
+				]
+			],
+			[
+				"Packages/Python/Python.sublime-build",
+				""
+			]
+		]
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 374.0,
+		"last_filter": "packa",
+		"selected_items":
+		[
+			[
+				"packa",
+				"Package Control: Install Package"
+			],
+			[
+				"edit",
+				"Project: Edit Project"
+			],
+			[
+				"pac",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 435.0
+	},
+	"console":
+	{
+		"height": 409.0,
+		"history":
+		[
+			"exit()",
+			"ls",
+			"list(ipp)",
+			"dir(ipp)",
+			"ipp",
+			"dh",
+			"dir()",
+			"d",
+			"import urllib.request,os,hashlib; h = 'df21e130d211cfc94d9b0905775a7c0f' + '1e3d39e33b79698005270310898eea76'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by) "
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/Users/mathiasmuller/Google Drive/UZH/NMT/code/clnet"
+	],
+	"file_history":
+	[
+		"/Users/mathiasmuller/Library/Application Support/Sublime Text 3/Packages/User/Python3.sublime-build",
+		"/Users/mathiasmuller/Desktop/ddd.py",
+		"/Users/mathiasmuller/Google Drive/UZH/NMT/code/clnet/__init__.py",
+		"/Users/mathiasmuller/Google Drive/UZH/ZB/march_course/GCP-entities/request.json",
+		"/Users/mathiasmuller/Desktop/displacy.html",
+		"/Users/mathiasmuller/Desktop/displacy.css",
+		"/Users/mathiasmuller/Downloads/mallet-2.0.8/sample-data/web/de/hoechst.txt",
+		"/Users/mathiasmuller/Desktop/nematus-context2/nematus/translate_context.py",
+		"/Users/mathiasmuller/Desktop/nematus-context2/utils/std_alignments.py",
+		"/Users/mathiasmuller/Desktop/nematus-context2/nematus/nmt.py",
+		"/Users/mathiasmuller/Desktop/nematus-context2/nematus/score_context.py",
+		"/Users/mathiasmuller/Desktop/nematus-context2/nematus/data_iterator.py",
+		"/Users/mathiasmuller/Desktop/nematus-context2/nematus/alignment_util.py",
+		"/Users/mathiasmuller/Desktop/nematus-context2/nematus/layers.py",
+		"/Users/mathiasmuller/Desktop/nematus-context2/nematus/util.py",
+		"/Users/mathiasmuller/Desktop/pronoun-sets/extract.py",
+		"/Users/mathiasmuller/Desktop/pronoun-sets/coref.py",
+		"/Users/mathiasmuller/Desktop/pronoun-sets/extract_folder.py",
+		"/Users/mathiasmuller/Desktop/pronoun-sets/constants.py",
+		"/Users/mathiasmuller/Desktop/pronoun-sets/chains.py",
+		"/Users/mathiasmuller/Desktop/hi.sh",
+		"/Users/mathiasmuller/Google Drive/UZH/QM/submissions/gonzalo+jonathan/Shared Task_gsuazo_jschaber_Addenda/README.txt",
+		"/Users/mathiasmuller/Google Drive/UZH/QM/submissions/nora+alex/model_submission_loetscher_flueckiger/baseline.py",
+		"/Users/mathiasmuller/Desktop/nematus-context2/nematus/translate.py",
+		"/Users/mathiasmuller/Desktop/ds.py",
+		"/Users/mathiasmuller/Desktop/theanos.py",
+		"/Users/mathiasmuller/Desktop/nematus-context2/nematus/settings.py",
+		"/Users/mathiasmuller/Desktop/nematus-context2/nematus/t.py",
+		"/Users/mathiasmuller/Desktop/nematus-context2/nematus/optimizers.py",
+		"/Users/mathiasmuller/Desktop/scan.py",
+		"/Users/mathiasmuller/Desktop/dynet/lib/pooling.py",
+		"/Users/mathiasmuller/Desktop/dynet/lib/preprocessing.py",
+		"/Users/mathiasmuller/Desktop/dynet/lib/rnn.py",
+		"/Users/mathiasmuller/Desktop/dynet/lib/cnn.py",
+		"/Users/mathiasmuller/Desktop/dynet/lib/utils.py",
+		"/Users/mathiasmuller/Desktop/dynet/lib/tagger.py",
+		"/Users/mathiasmuller/Desktop/dynet/lib/pool_only.py",
+		"/Users/mathiasmuller/Desktop/dynet/lib/csv2penn.py",
+		"/Users/mathiasmuller/Library/Group Containers/G69SCX94XU.duck/Library/Application Support/duck/Volumes/login.cl.uzh.ch – SFTP/spooky/dynet/lib/utils.py",
+		"/Users/mathiasmuller/Library/Group Containers/G69SCX94XU.duck/Library/Application Support/duck/Volumes/login.cl.uzh.ch – SFTP/spooky/dynet/lib/tutorial_tagger.py",
+		"/Users/mathiasmuller/Library/Group Containers/G69SCX94XU.duck/Library/Application Support/duck/Volumes/login.cl.uzh.ch – SFTP/spooky/dynet/lib/csv2penn.py",
+		"/Users/mathiasmuller/Library/Group Containers/G69SCX94XU.duck/Library/Application Support/duck/Volumes/rattle.ifi.uzh.ch – SFTP-1/sb-context/it.py",
+		"/Users/mathiasmuller/Library/Group Containers/G69SCX94XU.duck/Library/Application Support/duck/Volumes/rattle.ifi.uzh.ch – SFTP-1/nematus-context2/nematus/data_iterator.py",
+		"/Users/mathiasmuller/Desktop/s cmd",
+		"/Users/mathiasmuller/Desktop/d.py",
+		"/Users/mathiasmuller/Library/Group Containers/G69SCX94XU.duck/Library/Application Support/duck/Volumes/rattle.ifi.uzh.ch – SFTP-1/nematus-context2/nematus/layers.py",
+		"/Users/mathiasmuller/Library/Group Containers/G69SCX94XU.duck/Library/Application Support/duck/Volumes/rattle.ifi.uzh.ch – SFTP-1/nematus-context2/nematus/nmt.py",
+		"/Users/mathiasmuller/Downloads/scoring.py",
+		"/Users/mathiasmuller/Library/Group Containers/G69SCX94XU.duck/Library/Application Support/duck/Volumes/rattle.ifi.uzh.ch – SFTP-1/nematus-context2/nematus/translate.py",
+		"/Users/mathiasmuller/Google Drive/UZH/QM/code/sklearn/sc2.py",
+		"/Users/mathiasmuller/Google Drive/UZH/QM/code/sklearn/sc.py",
+		"/Users/mathiasmuller/Google Drive/UZH/QM/code/sklearn/sc4.py",
+		"/Users/mathiasmuller/Google Drive/UZH/QM/code/sklearn/sc5.py",
+		"/Users/mathiasmuller/Google Drive/UZH/QM/code/sklearn/sc3.py",
+		"/Users/mathiasmuller/Library/Group Containers/G69SCX94XU.duck/Library/Application Support/duck/Volumes/rattle.ifi.uzh.ch – SFTP-1/nematus-context2/nematus/theano_util.py",
+		"/Users/mathiasmuller/Google Drive/UZH/QM/code/ownsvd.py",
+		"/Users/mathiasmuller/Google Drive/UZH/QM/code/similarity_example.py",
+		"/Users/mathiasmuller/Google Drive/UZH/QM/code/lsa.py",
+		"/Users/mathiasmuller/Google Drive/UZH/QM/code/simtask.py",
+		"/Users/mathiasmuller/Downloads/similarity_example(1)/simtask.py",
+		"/Users/mathiasmuller/Downloads/similarity_example(1)/similarity_example.py",
+		"/Users/mathiasmuller/Downloads/similarity_example/similarity_example.py",
+		"/Users/mathiasmuller/Downloads/similarity_example/simtask.py",
+		"/Users/mathiasmuller/Google Drive/UZH_PRE_HS2017/UZH_FS_2016/Semantistik/code/lsa.py",
+		"/Users/mathiasmuller/Google Drive/UZH_PRE_HS2017/UZH_FS_2016/Semantistik/code/calls.txt",
+		"/Users/mathiasmuller/Google Drive/UZH_PRE_HS2017/UZH_FS_2016/Semantistik/code/stats.py",
+		"/Users/mathiasmuller/Google Drive/UZH_PRE_HS2017/UZH_FS_2016/Semantistik/code/nmf.py",
+		"/Users/mathiasmuller/Google Drive/UZH/QM/code/commands.txt",
+		"/Users/mathiasmuller/Google Drive/UZH/QM/code/paired_t_test.py",
+		"/Users/mathiasmuller/Library/Group Containers/G69SCX94XU.duck/Library/Application Support/duck/Volumes/rattle.ifi.uzh.ch – SFTP-1/nematus-context2/test/test_data_iterator.py",
+		"/Users/mathiasmuller/Library/Group Containers/G69SCX94XU.duck/Library/Application Support/duck/Volumes/rattle.ifi.uzh.ch – SFTP-1/nematus-context2/test/test_build_layers.py",
+		"/Users/mathiasmuller/Google Drive/UZH/CONTRA/scan.py",
+		"/Users/mathiasmuller/Library/Group Containers/G69SCX94XU.duck/Library/Application Support/duck/Volumes/rattle.ifi.uzh.ch – SFTP-1/nematus-context2/test/test_init_params.py",
+		"/Users/mathiasmuller/Desktop/sample.txt",
+		"/Users/mathiasmuller/Library/Group Containers/G69SCX94XU.duck/Library/Application Support/duck/Volumes/rattle.ifi.uzh.ch – SFTP-1/nematus-context/nematus/layers.py",
+		"/Users/mathiasmuller/Library/Group Containers/G69SCX94XU.duck/Library/Application Support/duck/Volumes/rattle.ifi.uzh.ch – SFTP-1/nematus-context/nematus/nmt.py",
+		"/Users/mathiasmuller/Desktop/layers_explained.py",
+		"/Users/mathiasmuller/Library/Application Support/Sublime Text 3/Packages/Anaconda/Anaconda.sublime-settings",
+		"/Users/mathiasmuller/Library/Group Containers/G69SCX94XU.duck/Library/Application Support/duck/Volumes/rattle.ifi.uzh.ch – SFTP-1/nematus-context/nematus/util.py",
+		"/Users/mathiasmuller/Library/Group Containers/G69SCX94XU.duck/Library/Application Support/duck/Volumes/rattle.ifi.uzh.ch – SFTP-1/nematus-context/nematus/alignment_util.py",
+		"/Users/mathiasmuller/Library/Group Containers/G69SCX94XU.duck/Library/Application Support/duck/Volumes/rattle.ifi.uzh.ch – SFTP-1/nematus-context/nematus/theano_util.py",
+		"/Users/mathiasmuller/Library/Group Containers/G69SCX94XU.duck/Library/Application Support/duck/Volumes/rattle.ifi.uzh.ch – SFTP-1/nematus-context/nematus/initializers.py",
+		"/Users/mathiasmuller/Desktop/stub.py",
+		"/Users/mathiasmuller/Desktop/sockeye/sockeye/bleu.py",
+		"/Users/mathiasmuller/Desktop/sockeye/sockeye/encoder.py",
+		"/Users/mathiasmuller/Desktop/sockeye/sockeye/convolution.py",
+		"/Users/mathiasmuller/Desktop/sockeye/sockeye/layers.py",
+		"/Users/mathiasmuller/Desktop/sockeye/sockeye/decoder.py",
+		"/Users/mathiasmuller/Desktop/multi_translate.py",
+		"/Users/mathiasmuller/Desktop/u.py",
+		"/Users/mathiasmuller/Desktop/z.py",
+		"/Users/mathiasmuller/Desktop/e.py",
+		"/Users/mathiasmuller/Desktop/t/e.py",
+		"/Users/mathiasmuller/Desktop/a.py",
+		"/Users/mathiasmuller/Desktop/t/GDI-TRAIN.txt",
+		"/Users/mathiasmuller/Google Drive/UZH/CONTRA/pronoun-sets/wmt-sets/extract_folder.py",
+		"/Users/mathiasmuller/Google Drive/UZH/CONTRA/pronoun-sets/wmt-sets/extract_keep_boundaries.py",
+		"/Users/mathiasmuller/Google Drive/UZH/CONTRA/pronoun-sets/wmt-sets/extract.py",
+		"/Users/mathiasmuller/Google Drive/UZH/CONTRA/pronoun-sets/wmt-sets/check-integrity.py",
+		"/Users/mathiasmuller/Google Drive/UZH/Fachverein/Roadshow/Roadshow_2016/commands.txt",
+		"/Users/mathiasmuller/Desktop/pronoun-sets/evaluate.py",
+		"/Users/mathiasmuller/Google Drive/UZH/CONTRA/pronoun-sets/wmt-sets/profile.sublime-project",
+		"/Users/mathiasmuller/Library/Group Containers/G69SCX94XU.duck/Library/Application Support/duck/Volumes/rattle.ifi.uzh.ch – SFTP-1/nematus-GITHUB/nematus/settings.py",
+		"/Users/mathiasmuller/Library/Group Containers/G69SCX94XU.duck/Library/Application Support/duck/Volumes/rattle.ifi.uzh.ch – SFTP-1/nematus-GITHUB/nematus/score.py",
+		"/Users/mathiasmuller/Library/Group Containers/G69SCX94XU.duck/Library/Application Support/duck/Volumes/rattle.ifi.uzh.ch – SFTP-1/pronoun-set/wmt-sets/extract_folder.py",
+		"/Users/mathiasmuller/Library/Group Containers/G69SCX94XU.duck/Library/Application Support/duck/Volumes/rattle.ifi.uzh.ch – SFTP-1/nematus-master/nematus/nmt.py",
+		"/Users/mathiasmuller/Library/Group Containers/G69SCX94XU.duck/Library/Application Support/duck/Volumes/rattle.ifi.uzh.ch – SFTP-1/nematus-master/nematus/training_progress.py",
+		"/Users/mathiasmuller/Library/Group Containers/G69SCX94XU.duck/Library/Application Support/duck/Volumes/rattle.ifi.uzh.ch – SFTP-1/nematus-master/nematus/data_iterator.py",
+		"/Users/mathiasmuller/Library/Group Containers/G69SCX94XU.duck/Library/Application Support/duck/Volumes/rattle.ifi.uzh.ch – SFTP-1/nematus-master/nematus/util.py",
+		"/Users/mathiasmuller/Library/Group Containers/G69SCX94XU.duck/Library/Application Support/duck/Volumes/rattle.ifi.uzh.ch – SFTP-1/nematus-master/nematus/alignment_util.py",
+		"/Users/mathiasmuller/Library/Group Containers/G69SCX94XU.duck/Library/Application Support/duck/Volumes/rattle.ifi.uzh.ch – SFTP-1/nematus-master/nematus/initializers.py",
+		"/Users/mathiasmuller/Library/Group Containers/G69SCX94XU.duck/Library/Application Support/duck/Volumes/rattle.ifi.uzh.ch – SFTP-1/nematus-master/nematus/layers.py",
+		"/Users/mathiasmuller/Library/Group Containers/G69SCX94XU.duck/Library/Application Support/duck/Volumes/rattle.ifi.uzh.ch – SFTP-1/nematus-master/nematus/theano_util.py",
+		"/Users/mathiasmuller/Library/Group Containers/G69SCX94XU.duck/Library/Application Support/duck/Volumes/rattle.ifi.uzh.ch – SFTP-1/nematus-master/nematus/optimizers.py",
+		"/Users/mathiasmuller/Desktop/classifiers/mlp.py",
+		"/Users/mathiasmuller/Desktop/classifiers/logreg.py",
+		"/Users/mathiasmuller/Desktop/classifiers/mlp2.py",
+		"/Users/mathiasmuller/Desktop/markup-util/corpus-stats.py",
+		"/Users/mathiasmuller/Desktop/markup-util/random-markup.py",
+		"/Users/mathiasmuller/Google Drive/UZH/Fachverein/Roadshow/Roadshow_2016/bots.py",
+		"/Users/mathiasmuller/Library/Group Containers/G69SCX94XU.duck/Library/Application Support/duck/Volumes/rattle.ifi.uzh.ch – SFTP-1/nematus-GITHUB/nematus/nmt.py",
+		"/Users/mathiasmuller/Desktop/adaline.py",
+		"/Users/mathiasmuller/Library/Group Containers/G69SCX94XU.duck/Library/Application Support/duck/Volumes/rattle.ifi.uzh.ch – SFTP-1/nematus-GITHUB/nematus/layers.py",
+		"/Users/mathiasmuller/Library/Group Containers/G69SCX94XU.duck/Library/Application Support/duck/Volumes/rattle.ifi.uzh.ch – SFTP-1/nematus-master/nematus/score.py",
+		"/Users/mathiasmuller/Library/Group Containers/G69SCX94XU.duck/Library/Application Support/duck/Volumes/rattle.ifi.uzh.ch – SFTP-1/pronoun-set/wmt-sets/extract.py",
+		"/Users/mathiasmuller/Library/Group Containers/G69SCX94XU.duck/Library/Application Support/duck/Volumes/rattle.ifi.uzh.ch – SFTP-1/nematus-dev/nematus/nematus/translate.py",
+		"/Users/mathiasmuller/Library/Group Containers/G69SCX94XU.duck/Library/Application Support/duck/Volumes/rattle.ifi.uzh.ch – SFTP-1/nematus-master/nematus/translate.py",
+		"/Users/mathiasmuller/Library/Group Containers/G69SCX94XU.duck/Library/Application Support/duck/Volumes/rattle.ifi.uzh.ch – SFTP-1/nematus-dev/nematus/test/test_translate.py"
+	],
+	"find":
+	{
+		"height": 37.0
+	},
+	"find_in_files":
+	{
+		"height": 97.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "optimizer.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 171,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								147,
+								147
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "loss.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 98,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								98,
+								98
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "train.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 98,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								98,
+								98
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 7,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "iterator.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 98,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								98,
+								98
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 6,
+					"type": "text"
+				}
+			]
+		},
+		{
+			"selected": 1,
+			"sheets":
+			[
+				{
+					"buffer": 4,
+					"file": "tensor.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 150,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								112,
+								112
+							]
+						],
+						"settings":
+						{
+							"auto_complete_triggers":
+							[
+								{
+									"characters": ".",
+									"selector": "source.python - string - comment - constant.numeric"
+								},
+								{
+									"characters": ".",
+									"selector": "source.python - string - constant.numeric"
+								}
+							],
+							"syntax": "Packages/Python/Python.sublime-syntax",
+							"tab_size": 4
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "layer.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 337,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								167,
+								167
+							]
+						],
+						"settings":
+						{
+							"auto_complete_triggers":
+							[
+								{
+									"characters": ".",
+									"selector": "source.python - string - comment - constant.numeric"
+								},
+								{
+									"characters": ".",
+									"selector": "source.python - string - constant.numeric"
+								}
+							],
+							"syntax": "Packages/Python/Python.sublime-syntax",
+							"tab_size": 4
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "activation.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 98,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								98,
+								98
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				},
+				{
+					"buffer": 7,
+					"file": "net.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 149,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								149,
+								149
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 5,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 27.0
+	},
+	"input":
+	{
+		"height": 0.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			],
+			[
+				1,
+				0,
+				2,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			0.5,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 383.0
+	},
+	"output.find_results":
+	{
+		"height": 116.0
+	},
+	"pinned_build_system": "Packages/User/Python3.sublime-build",
+	"project": "clnet.sublime-project",
+	"replace":
+	{
+		"height": 50.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"",
+				"~/Library/Group Containers/G69SCX94XU.duck/Library/Application Support/duck/Volumes/login.cl.uzh.ch – SFTP/spooky/dynet/lib/tutorial_tagger.py"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 214.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
