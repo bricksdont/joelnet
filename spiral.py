@@ -17,6 +17,7 @@ from clnet.nn import NeuralNet
 from clnet.layers import Linear, Relu, Softmax, Tanh
 from clnet.loss import CrossEntropy
 from clnet.regularizers import L2
+from clnet.optim import SGD
 
 
 N = 100 # number of points per class
@@ -33,14 +34,14 @@ for j in range(K):
   targets[ix] = j
 
 net = NeuralNet([
-    Linear(input_size=2, output_size=100, regularizer=L2()),
+    Linear(input_size=2, output_size=100, regularizer=None),
     Relu(),
-    Linear(input_size=100, output_size=3, regularizer=L2()),
+    Linear(input_size=100, output_size=3, regularizer=None),
     Softmax()
 ])
 
-train(net, inputs, targets, num_epochs=20, loss=CrossEntropy())
+train(net, inputs, targets, num_epochs=5000, loss=CrossEntropy(), optimizer=SGD(lr=0.1))
 
-for x, y in zip(inputs, targets):
-    predicted = net.forward(x)
-    print(x, predicted, y)
+scores = net.forward(inputs)
+predicted_class = np.argmax(scores, axis=1)
+print("training accuracy: %.2f" % (np.mean(predicted_class == targets)))

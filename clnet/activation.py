@@ -25,8 +25,7 @@ def relu_prime(grads: Tensor) -> Tensor:
     Derivative is 1 if the forward pass number is
     positive, and 0 otherwise.
     """
-    grads[grads <= 0] = 0
-    return grads
+    raise NotImplementedError
 
 def sigmoid(inputs: Tensor) -> Tensor:
 
@@ -53,7 +52,7 @@ def softmax_prime(grads: Tensor) -> Tensor:
     Assuming softmax at the "end" of the network, and followed
     by cross-entropy loss.
     """
-    return grads
+    return 1
 
 def tanh(inputs: Tensor) -> Tensor:
 
