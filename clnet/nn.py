@@ -34,3 +34,11 @@ class NeuralNet:
             for name, param in layer.params.items():
                 grad = layer.grads[name]
                 yield param, grad
+
+    def reg_losses(self) -> Iterator[float]:
+
+        reg_loss = 0
+        for layer in self.layers:
+            if "W" in layer.params:
+                reg_loss += layer.reg_loss
+        return reg_loss

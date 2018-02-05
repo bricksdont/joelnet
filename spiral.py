@@ -14,8 +14,10 @@ import numpy as np
 
 from clnet.train import train
 from clnet.nn import NeuralNet
-from clnet.layers import Linear, Relu, Softmax
+from clnet.layers import Linear, Relu, Softmax, Tanh
 from clnet.loss import CrossEntropy
+from clnet.regularizers import L2
+
 
 N = 100 # number of points per class
 D = 2 # dimensionality
@@ -31,9 +33,9 @@ for j in range(K):
   targets[ix] = j
 
 net = NeuralNet([
-    Linear(input_size=2, output_size=100),
+    Linear(input_size=2, output_size=100, regularizer=L2()),
     Relu(),
-    Linear(input_size=100, output_size=3),
+    Linear(input_size=100, output_size=3, regularizer=L2()),
     Softmax()
 ])
 
