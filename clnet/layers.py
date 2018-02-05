@@ -48,8 +48,8 @@ class Linear(Layer):
         # inputs will be (batch_size, input_size)
         # outputs will be (batch_size, output_size)
         super().__init__()
-        self.params["w"] = np.random.randn(input_size, output_size)
-        self.params["b"] = np.random.randn(output_size)
+        self.params["w"] = np.random.randn(input_size, output_size) * 0.01
+        self.params["b"] = np.zeros(output_size)
 
         self.reg_loss = 0
         self.regularizer = regularizer
@@ -124,6 +124,7 @@ class Relu(Activation):
 
         outputs = self.f(self.inputs)
         grad[outputs <= 0] = 0
+
         return grad
 
 class Sigmoid(Activation):
