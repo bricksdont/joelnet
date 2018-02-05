@@ -25,7 +25,8 @@ def relu_prime(grads: Tensor) -> Tensor:
     Derivative is 1 if the forward pass number is
     positive, and 0 otherwise.
     """
-    return (grads > 0) * 1
+    grads[grads <= 0] = 0
+    return grads
 
 def sigmoid(inputs: Tensor) -> Tensor:
 
@@ -39,11 +40,19 @@ def softmax(inputs: Tensor) -> Tensor:
     # stable softmax that does not run into inf / overflow
     exps = np.exp(inputs - np.max(inputs))
 
-    return exps / exps.sum(axis=0)
+    if inputs.ndim == 1:
+        sum_axis = 0
+    else:
+        sum_axis = 1
+
+    return exps / np.sum(exps, axis=sum_axis, keepdims=True)
 
 def softmax_prime(grads: Tensor) -> Tensor:
-
-    raise NotImplementedError
+    """
+    Assuming softmax at the "end" of the network, and followed
+    by cross-entropy loss.
+    """
+    return grads
 
 def tanh(inputs: Tensor) -> Tensor:
 
@@ -54,7 +63,3 @@ def tanh_prime(grads: Tensor) -> Tensor:
     Derivative of tanh(x) is 1 - tanh ** 2 (x)
     """
     return 1 - np.tanh(grads) ** 2
-
-batch = [[5, 2, 3], [0.3, 2, 1]]
-
-print(softmax(batch))
