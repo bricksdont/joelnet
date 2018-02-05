@@ -1,3 +1,9 @@
+#!/usr/bin/env python
+# -*- coding: utf-8 -*-
+
+# Most of the code taken from:
+# https://github.com/joelgrus/joelnet
+
 """
 We'll feed inputs into our network in batches.
 So here are some tools for iterating over data in batches.
@@ -6,7 +12,7 @@ from typing import Iterator, NamedTuple
 
 import numpy as np
 
-from joelnet.tensor import Tensor
+from clnet.tensor import Tensor
 
 Batch = NamedTuple("Batch", [("inputs", Tensor), ("targets", Tensor)])
 

@@ -1,9 +1,15 @@
+#!/usr/bin/env python
+# -*- coding: utf-8 -*-
+
+# Most of the code taken from:
+# https://github.com/joelgrus/joelnet
+
 """
 We use an optimizer to adjust the parameters
 of our network based on the gradients computed
 during backpropagation
 """
-from joelnet.nn import NeuralNet
+from clnet.nn import NeuralNet
 
 class Optimizer:
     def step(self, net: NeuralNet) -> None:

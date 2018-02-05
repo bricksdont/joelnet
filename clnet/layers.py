@@ -1,3 +1,9 @@
+#!/usr/bin/env python
+# -*- coding: utf-8 -*-
+
+# Most of the code taken from:
+# https://github.com/joelgrus/joelnet
+
 """
 Our neural nets will be made up of layers.
 Each layer needs to pass its inputs forward
@@ -10,7 +16,8 @@ from typing import Dict, Callable
 
 import numpy as np
 
-from joelnet.tensor import Tensor
+from clnet.tensor import Tensor
+from clnet import activation as A
 
 
 class Layer:
@@ -90,14 +97,18 @@ class Activation(Layer):
         return self.f_prime(self.inputs) * grad
 
 
-def tanh(x: Tensor) -> Tensor:
-    return np.tanh(x)
-
-def tanh_prime(x: Tensor) -> Tensor:
-    y = tanh(x)
-    return 1 - y ** 2
-
-
 class Tanh(Activation):
     def __init__(self):
-        super().__init__(tanh, tanh_prime)
+        super().__init__(A.tanh, A.tanh_prime)
+
+class Relu(Activation):
+    def __init__(self):
+        super().__init__(A.relu, A.relu_prime)
+
+class Sigmoid(Activation):
+    def __init__(self):
+        super().__init__(A.sigmoid, A.sigmoid_prime)
+
+class Softmax(Activation):
+    def __init__(self):
+        super().__init__(A.softmax, A.softmax_prime)
