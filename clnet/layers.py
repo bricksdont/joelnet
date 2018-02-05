@@ -105,6 +105,12 @@ class Relu(Activation):
     def __init__(self):
         super().__init__(A.relu, A.relu_prime)
 
+    def backward(self, grad: Tensor) -> Tensor:
+
+        outputs = self.f(self.inputs)
+        grad[outputs <= 0] = 0
+        return grad
+
 class Sigmoid(Activation):
     def __init__(self):
         super().__init__(A.sigmoid, A.sigmoid_prime)

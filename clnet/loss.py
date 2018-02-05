@@ -61,4 +61,6 @@ class CrossEntropy(Loss):
         # subtract the true class label, which happens to be 1
         predicted[range(num_samples), actual] -= 1
 
-        return predicted /= num_samples
+        predicted = predicted / num_samples
+
+        return predicted
