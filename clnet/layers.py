@@ -17,8 +17,8 @@ from typing import Dict, Callable
 import numpy as np
 
 from clnet.tensor import Tensor
+from clnet.regularizers import Regularizer
 from clnet import activation as A
-
 
 class Layer:
     def __init__(self) -> None:
@@ -42,18 +42,29 @@ class Linear(Layer):
     """
     computes output = inputs @ w + b
     """
-    def __init__(self, input_size: int, output_size: int) -> None:
+    def __init__(self, input_size: int,
+                 output_size: int,
+                 regularizer: Regularizer = None) -> None:
         # inputs will be (batch_size, input_size)
         # outputs will be (batch_size, output_size)
         super().__init__()
         self.params["w"] = np.random.randn(input_size, output_size)
         self.params["b"] = np.random.randn(output_size)
 
+        self.reg_loss = 0
+        self.regularizer = regularizer
+
     def forward(self, inputs: Tensor) -> Tensor:
         """
         outputs = inputs @ w + b
+
+        Also keep track of regularization loss in forward pass
         """
         self.inputs = inputs
+
+        if self.regularizer:
+            self.reg_loss = self.regularizer.loss(self.params["w"])
+
         return inputs @ self.params["w"] + self.params["b"]
 
     def backward(self, grad: Tensor) -> Tensor:
@@ -70,6 +81,10 @@ class Linear(Layer):
         """
         self.grads["b"] = np.sum(grad, axis=0)
         self.grads["w"] = self.inputs.T @ grad
+
+        if self.regularizer:
+            self.grads["w"] += self.regularizer.strength * self.params["w"]
+
         return grad @ self.params["w"].T
 
 

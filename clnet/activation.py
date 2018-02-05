@@ -40,6 +40,7 @@ def softmax(inputs: Tensor) -> Tensor:
     # stable softmax that does not run into inf / overflow
     exps = np.exp(inputs - np.max(inputs))
 
+    # account for batch vs. single example
     if inputs.ndim == 1:
         sum_axis = 0
     else:

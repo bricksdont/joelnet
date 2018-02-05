@@ -26,7 +26,12 @@ def train(net: NeuralNet,
         epoch_loss = 0.0
         for batch in iterator(inputs, targets):
             predicted = net.forward(batch.inputs)
-            epoch_loss += loss.loss(predicted, batch.targets)
+
+            data_loss = loss.loss(predicted, batch.targets)
+            reg_loss = net.reg_losses()
+
+            epoch_loss += data_loss + reg_loss
+
             grad = loss.grad(predicted, batch.targets)
             net.backward(grad)
             optimizer.step(net)
